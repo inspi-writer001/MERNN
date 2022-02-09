@@ -1,0 +1,38 @@
+/* * {
+  margin: 0px;
+} */
+html{
+  scroll-snap-type: y mandatory;
+}
+
+.app{
+  height: 100vh;
+  background-color: black;
+  display: grid;
+  place-items: center;
+}
+
+.app__videos{
+  position: relative;
+  height: 800px;
+  border-radius: 20px;
+  width: 80%;
+  max-width: 500px;
+  overflow: scroll;
+  scroll-snap-type: y mandatory;
+}
+
+.app__videos ::-webkit-scrollbar{
+  display: none; 
+}
+.app__videos ::-webkit-scrollbar-track{
+  background: rgb(225, 0, 0);
+}
+
+.app__videos ::-webkit-scrollbar-thumb{
+  background: rgb(160, 67, 67);
+}
+.app__videos{
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+} 

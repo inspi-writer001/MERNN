@@ -1,0 +1,25 @@
+.videoSidebar{
+    position: absolute;
+    top: 40%;
+    right: 10px;
+    /* bottom: 40px; */
+}
+
+.videoSidebar__button {
+    /* filter: invert(1); */
+    /* animation: swing infinite 0.1s linear; */
+    padding: 20px;
+    text-align: center;
+    color: white;
+
+}
+
+@keyframes swing {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+    
+}
