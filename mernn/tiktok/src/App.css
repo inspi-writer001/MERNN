@@ -18,7 +18,9 @@ html{
   border-radius: 20px;
   width: 80%;
   max-width: 500px;
-  overflow: scroll;
+  overflow: auto;
+  /* overflow-y: auto;
+  overflow-x: auto; */
   scroll-snap-type: y mandatory;
 }
 
